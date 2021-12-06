@@ -19,6 +19,10 @@
 
 ## 开发者说明
 
+<details>
+<summary>展开</summary>
+<br/>
+
 ### 手动打包项目
 
 每次修改代码后，记得同步修改 [`setup.py`](setup.py) 下的版本号 `version='x.y.z'`。
@@ -74,6 +78,7 @@ twine upload dist/*
 - [python package 开发指引](https://packaging.python.org/#python-packaging-user-guide)
 - [python package 示例代码](https://github.com/pypa/sampleproject)
 
+</details>
 
 ## 赞助途径
 
