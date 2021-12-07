@@ -32,10 +32,10 @@
 python setup.py sdist
 
 # 本地安装（测试用）
-pip install .\dist\pypdm-db-?.?.?.tar.gz
+pip install .\dist\xxxx-?.?.?.tar.gz
 
 # 本地卸载
-pip uninstall pypdm-db
+pip uninstall xxxx
 ```
 
 ### 手动发布项目
