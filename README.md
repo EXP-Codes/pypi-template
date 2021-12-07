@@ -12,7 +12,7 @@
 ## 使用说明
 
 1. 创建 Github Repository 时选择这个仓库做模板
-2. 在 [PyPI](https://pypi.org/) 上注册一个帐号，密码设置到 Github Repository -> Settings -> Secrets，即为配置文件 [`autorun.yml`](./.github/workflows/autorun.yml) 添加环境变量 `pypi_password`，用于 Github Workflows 自动发版
+2. 在 [PyPI](https://pypi.org/) 上注册一个帐号，然后生成 API Token 后，把 Token 设置到 Github Repository -> Settings -> Secrets，即为配置文件 [`autorun.yml`](./.github/workflows/autorun.yml) 的环境变量 `pypi_password`，用于 Github Workflows 自动发版
 3. 在 [src](./src) 目录中创建代码
 4. 修改 [setup.py](./setup.py) 中的 `FIXME` ，按实际修改发版信息
 
